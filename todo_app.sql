@@ -50,6 +50,8 @@ SELECT title FROM tasks WHERE title LIKE '%mistake%';
 
 DELETE FROM tasks WHERE title LIKE '%mistake%';
 
+SELECT * FROM tasks ORDER BY title ASC;
 
-SELECT * FROM tasks;
+
+-- SELECT * FROM tasks;
 -- \d+ tasks;
