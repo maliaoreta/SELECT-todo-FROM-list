@@ -48,6 +48,8 @@ INSERT INTO tasks (title, description) VALUES ('mistake 1', 'a test entry'),
 
 SELECT title FROM tasks WHERE title LIKE '%mistake%';
 
+DELETE FROM tasks WHERE title LIKE '%mistake%';
 
--- SELECT * FROM tasks;
+
+SELECT * FROM tasks;
 -- \d+ tasks;
