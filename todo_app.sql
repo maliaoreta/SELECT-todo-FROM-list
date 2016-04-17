@@ -42,6 +42,11 @@ SELECT title, description FROM tasks WHERE completed_at is NULL;
 
 SELECT * FROM tasks ORDER BY created_at DESC;
 
+INSERT INTO tasks (title, description) VALUES ('mistake 1', 'a test entry'),
+  ('mistake 2', 'another test entry'),
+  ('third mistake', 'another test entry');
+
+SELECT title FROM tasks WHERE title LIKE '%mistake%';
 
 
 -- SELECT * FROM tasks;
